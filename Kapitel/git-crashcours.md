@@ -184,6 +184,7 @@ In Projekten finden sich auch immer wieder Dateien, die nicht zum eigentlich Pro
 * Binärdaten nach dem Kompilieren
 * Im Projektordner abgelegte Tools
 * Datenbankdateien
+
 Um diese Dateien nicht ständig bei `git status` aus "untracked" aufgelistet zu bekommen, kann man solche Dateien in die Datei `.gitignore` eintragen. Git filtert dann alle dort aufgelistet Dateien aus den gängigen Operationen heraus.
 
 Wichtig: Die Datei `.gitignore` sollte ins Repository eingecheckt werden. Wird diese also geändert, muss diese auch mit `git add .gitignore` und `git commit` "committed" werden. Sonst sind die Änderungen nur lokal.
